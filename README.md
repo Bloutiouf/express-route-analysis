@@ -8,13 +8,13 @@ All the time variables are in **milliseconds**.
 
 ## Example
 
-See [example.js](https://github.com/express-route-analysis/blob/master) for a complete example. It is an Express server with a REST service that can do amazing things, but for now it only delivers random numbers. Well, it's just an example.
+See [example.js](https://github.com/Bloutiouf/express-route-analysis/blob/master/example.js) for a complete example. It is an Express server with a REST service that can do amazing things, but for now it only delivers random numbers. Well, it's just an example.
 
 The routes are defined with a description, which is impossible to do with a regular router.
 
 The service has [an introspective route](http://localhost:3000/api/math/) that can display the defined routes (in the service only).
 
-Route statistics are taken by intervals of five minutes and stored in a [Couchbase database](www.couchbase.com). Statistics are computed with [statsjs](https://github.com/angusgibbs/statsjs).
+Route statistics are taken by intervals of five minutes and stored in a [Couchbase database](http://www.couchbase.com/). Statistics are computed with [statsjs](https://github.com/angusgibbs/statsjs).
 
 ## Route descriptor
 
