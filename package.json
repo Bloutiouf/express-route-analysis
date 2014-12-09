@@ -1,0 +1,29 @@
+{
+  "name": "express-route-analysis",
+  "version": "1.0.0",
+  "description": "Analyze Express routes",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bloutiouf/express-route-analysis"
+  },
+  "keywords": [
+    "analysis",
+    "express",
+    "introspection",
+    "route"
+  ],
+  "author": {
+    "name": "Bloutiouf",
+    "email": "bloutiouf@gmail.com",
+    "url": "http://bloutiouf.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bloutiouf/express-route-analysis/issues"
+  },
+  "homepage": "https://github.com/Bloutiouf/express-route-analysis",
+  "dependencies": {
+    "methods": "^1.1.0"
+  }
+}
